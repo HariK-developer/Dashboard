@@ -1,5 +1,5 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, ElementRef, ViewEncapsulation } from '@angular/core';
 import { Drawer } from 'flowbite';
 import type { DrawerOptions, DrawerInterface } from 'flowbite';
 import type { InstanceOptions } from 'flowbite';
