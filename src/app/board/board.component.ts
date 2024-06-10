@@ -3,6 +3,8 @@ import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { Drawer } from 'flowbite';
 import type { DrawerOptions, DrawerInterface } from 'flowbite';
 import type { InstanceOptions } from 'flowbite';
+import { PieChartComponent } from '../pie-chart/pie-chart.component';
+
 
 
 @Component({
@@ -10,7 +12,7 @@ import type { InstanceOptions } from 'flowbite';
   standalone: true,
   templateUrl: './board.component.html',
   styleUrls: ['./board.component.css'],
-  imports : [NgOptimizedImage ]
+  imports : [NgOptimizedImage,PieChartComponent ]
 })
 export class BoardComponent implements AfterViewInit {
   @ViewChild('drawerJsExample', { static: true }) drawerElementRef!: ElementRef;
