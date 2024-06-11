@@ -24,7 +24,7 @@ export class PieChartComponent implements OnInit, OnDestroy {
       { country: 'Pelucias', litres: 501.9 },
       { country: 'Jogos', litres: 301.9 },
       { country: 'Bonecas', litres: 201.1 },
-      { country: 'Germany', litres: 165.8 },
+      { country: 'de Montar', litres: 165.8 },
     ];
 
     // Add and configure Series
