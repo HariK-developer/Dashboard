@@ -7,7 +7,7 @@ import { PieChartComponent } from '../pie-chart/pie-chart.component';
 import { SemiPieChartComponent } from '../semi-pie-chart/semi-pie-chart.component';
 import { BubbleMapChartComponent } from '../bubble-map-chart/bubble-map-chart.component';
 import { BarChartComponent } from '../barchart/barchart.component';
-
+import { LineChartComponent } from '../line-chart/line-chart.component';
 
 
 @Component({
@@ -15,7 +15,7 @@ import { BarChartComponent } from '../barchart/barchart.component';
   standalone: true,
   templateUrl: './board.component.html',
   styleUrls: ['./board.component.css'],
-  imports : [NgOptimizedImage,PieChartComponent, SemiPieChartComponent, BubbleMapChartComponent,BarChartComponent ]
+  imports : [NgOptimizedImage,PieChartComponent, SemiPieChartComponent, BubbleMapChartComponent,BarChartComponent,LineChartComponent ]
 })
 export class BoardComponent implements AfterViewInit {
   @ViewChild('drawerJsExample', { static: true }) drawerElementRef!: ElementRef;
