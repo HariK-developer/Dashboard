@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-bubble-map-chart',
+  selector: 'app-bubble-chart',
   standalone: true,
   imports: [],
   templateUrl: './bubble-map-chart.component.html',

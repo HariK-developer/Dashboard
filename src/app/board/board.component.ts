@@ -5,6 +5,8 @@ import type { DrawerOptions, DrawerInterface } from 'flowbite';
 import type { InstanceOptions } from 'flowbite';
 import { PieChartComponent } from '../pie-chart/pie-chart.component';
 import { SemiPieChartComponent } from '../semi-pie-chart/semi-pie-chart.component';
+import { BubbleMapChartComponent } from '../bubble-map-chart/bubble-map-chart.component';
+import { BarChartComponent } from '../barchart/barchart.component';
 
 
 
@@ -13,7 +15,7 @@ import { SemiPieChartComponent } from '../semi-pie-chart/semi-pie-chart.componen
   standalone: true,
   templateUrl: './board.component.html',
   styleUrls: ['./board.component.css'],
-  imports : [NgOptimizedImage,PieChartComponent, SemiPieChartComponent ]
+  imports : [NgOptimizedImage,PieChartComponent, SemiPieChartComponent, BubbleMapChartComponent,BarChartComponent ]
 })
 export class BoardComponent implements AfterViewInit {
   @ViewChild('drawerJsExample', { static: true }) drawerElementRef!: ElementRef;
