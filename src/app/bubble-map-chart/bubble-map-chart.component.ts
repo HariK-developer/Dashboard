@@ -320,7 +320,7 @@ export class BubbleMapChartComponent implements AfterViewInit, OnDestroy {
         name: 'Korea, Rep.',
         value: 48391343,
         circleTemplate: { fill: colors.getIndex(0) },
-      }
+      },
     ]);
 
     // Add globe/map switch
